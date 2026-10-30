@@ -51,6 +51,10 @@ YouTube 계정 연동을 쓰려면 직접 만든 Google OAuth 클라이언트가
 (Google Cloud Console → "YouTube Data API v3" 사용 설정 → OAuth 클라이언트,
 유형 "데스크톱 앱"). 없으면 YouTube 계정 로그인 기능이 빌드에서 빠집니다.
 
+Get the source (with submodules) / 소스 받기 (서브모듈 포함)::
+
+   git clone --recursive https://github.com/cloud2519/obs-youtube-language-fix.git
+
 Create ``CMakeUserPresets.json`` in the repository root (it is ignored by git,
 never commit your keys) / 저장소 루트에 ``CMakeUserPresets.json`` 을 만드세요
 (git에서 제외되는 파일입니다. 키를 커밋하지 마세요):
